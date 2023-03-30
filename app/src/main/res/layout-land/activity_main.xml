@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="651dp">
+
+        <TextureView
+            android:id="@+id/textureView"
+            android:layout_width="254dp"
+            android:layout_height="406dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_marginBottom="4dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="257dp"
+            android:layout_height="410dp"
+            android:contentDescription="TODO"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="467dp"
+            android:layout_height="70dp"
+            android:text="DETAILS"
+            android:textAlignment="center"
+            android:textSize="23dp" />
+
+
+        <Button
+            android:id="@+id/yoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="detect_yoga"
+            android:text="YOGA POSE"
+
+            />
+
+        <Button
+            android:id="@+id/exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="count_reps"
+            android:text="BICEPS COUNTER" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -10,9 +10,6 @@
 
 # RUN THE APP 
 
-<img src="../readme/android.jpg">
-
-
 
 ## Model
 
